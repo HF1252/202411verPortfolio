@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィール</title>
+
+    <!-- favicon アイコン -->
+    <link rel="icon" href="img/BeautyPlus-BG-REMOVER-1732371373709.png" style="border-radius: 50%; width: 100%; height: 100%;">
+
+    <!-- swiper css (画像スライダーのためのCSSライブラリ) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- box icons (アイコン用ライブラリ) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css (カスタムCSSスタイルシート)-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header design (ヘッダーのデザイン)-->
+    <header class="header">
+        <!-- logo ロゴ部分 -->
+        <a href="#" class="logo">Portfolio.</a>
+
+        <!-- ナビゲーションバー -->
+        <nav class="navbar">
+            <!-- 各セクションへのリンク -->
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- ダークモード切替アイコン -->
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <!-- メニューアイコン (モバイル表示用) -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design (ホームセクションのデザイン)-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hell, I am</h3>
+            <h1>H.K</h1>
+            <p>私はドイツでサッカーをしていました。<br>
+                Web関連の仕事を目指してIT企業に就職しました。<br>
+                エンジニアになるために、日々上進しています。<br>
+                将来はエンジニアとして色々な仕事に携わり活躍したいと思っております。</p>
+
+            <!-- ソーシャルメディアアイコン -->
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+            <!-- CVダウンロードボタン -->
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <!-- 職業紹介 -->
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera' ></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording' ></i>
+                    <h3>Videographer</h3>
+                </div>
+
+                <!-- 円形のデザイン要素 -->
+                <div class="circle"></div>
+            </div>
+
+            <!-- オーバーレイ (スクリーンオーバーレイ効果) -->
+            <div class="overlay"></div>
+        </div>
+
+        <!-- ホーム画像 -->
+        <div class="home-img">
+            <img src="img/BeautyPlus-BG-REMOVER-1732371543748.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design (自己紹介セクション)-->
+    <section class="about" id="about">
+        <!-- 自己紹介用画像 -->
+        <div class="about-img">
+            <img src="img/BeautyPlus-BG-REMOVER-1732371373709.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I would like To Introduce My past Projects!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto soluta est sunt in beatae doloribus eius sint tempore ut esse? Molestiae natus ratione accusamus deserunt vitae non facere, voluptate expedita, quisquam aspernatur impedit inventore suscipit distinctio! Similique deserunt aspernatur blanditiis!</p>
+            <!-- 読み進めるボタン -->
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design (サービスセクション)-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <!-- サービスごとのボックス -->
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel fuga veniam, qui nam reprehenderit assumenda necessitatibus, soluta nisi doloremque nulla molestiae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint' ></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel fuga veniam, qui nam reprehenderit assumenda necessitatibus, soluta nisi doloremque nulla molestiae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt' ></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel fuga veniam, qui nam reprehenderit assumenda necessitatibus, soluta nisi doloremque nulla molestiae.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design (ポートフォリオセクション)-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <!-- 各プロジェクトのボックス -->
+            <div class="portfolio-box">
+                <img src="img/IMG_4346.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo error?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/IMG_4350.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo error?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/IMG_4349.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo error?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/IMG_4348.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo error?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/IMG_4354.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo error?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/IMG_4351.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo error?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design (お客様の声 (テストモニアル) セクション)-->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <!-- Swiper (スライダー) を使用したテストモニアルのスライドショー -->
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <!-- 各テストモニアルスライド -->
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/IMG_8370.JPG" alt="">
+                        <h3>Jacson Levi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestiae sint, iusto nihil odit eaque pariatur earum sapiente suscipit atque quia sunt omnis aperiam ratione accusantium ut illum facere quis assumenda voluptate minus reprehenderit consequuntur. Voluptatibus nulla, iste nobis dolores placeat sequi quas tempora doloribus? Provident vel alias non esse a commodi debitis, optio autem quaerat sequi repellendus doloribus vero.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/IMG_8370.JPG" alt="">
+                        <h3>Flora Ocean</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestiae sint, iusto nihil odit eaque pariatur earum sapiente suscipit atque quia sunt omnis aperiam ratione accusantium ut illum facere quis assumenda voluptate minus reprehenderit consequuntur. Voluptatibus nulla, iste nobis dolores placeat sequi quas tempora doloribus? Provident vel alias non esse a commodi debitis, optio autem quaerat sequi repellendus doloribus vero.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/IMG_8370.JPG" alt="">
+                        <h3>Julian Grayson</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestiae sint, iusto nihil odit eaque pariatur earum sapiente suscipit atque quia sunt omnis aperiam ratione accusantium ut illum facere quis assumenda voluptate minus reprehenderit consequuntur. Voluptatibus nulla, iste nobis dolores placeat sequi quas tempora doloribus? Provident vel alias non esse a commodi debitis, optio autem quaerat sequi repellendus doloribus vero.</p>
+                    </div>
+                </div>
+
+                <!-- スライダーのナビゲーションボタン -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design (連絡先セクション)-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <!-- 入力フォーム -->
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <!-- メッセージ送信ボタン -->
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design (フッター)-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by H.K | All Right Reserved.</p>
+        </div>
+
+        <!-- 上に戻るボタン -->
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal (スクロールアニメーション)-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js (画像スライダー用のJavaScriptライブラリ)-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js (カスタムJavaScript)-->
+    <script src="js/script.js"></script>
+</body>
+</html>
